@@ -40,7 +40,7 @@ const Hero = () => {
       />
 
       {/* Grid con contenido */}
-      <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 place-items-center min-h-screen text-black gap-0 md:gap-8 px-4 py-12 md:py-6">
+      <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 place-items-center sm:min-h-screen text-black gap-8 px-4 py-16 sm:py-6">
         {/* Columna 1: BlurText con fondo */}
         <div
           className="relative w-full max-w-sm md:max-w-md mx-auto overflow-hidden rounded-xl bg-no-repeat bg-center bg-contain"
