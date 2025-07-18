@@ -13,7 +13,10 @@ const Projects = () => {
   }, []);
 
   return (
-    <section className="relative c-space section-spacing">
+    <section className="relative c-space section-spacing" id="fotos">
+      <div className="pt-10 justify-center text-center mb-4">
+        <h1>Fotografía</h1>
+      </div>
       <Masonry
         items={items}
         ease="power3.out"

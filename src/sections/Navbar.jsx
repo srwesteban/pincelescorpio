@@ -40,15 +40,20 @@ function Navigation({ onLinkClick }) {
         </button>
       </li>
       <li className="nav-li">
-        <button className="nav-link" onClick={() => handleScroll("experience")}>
-          Experiencia
+        <button className="nav-link" onClick={() => handleScroll("fotos")}>
+          Fotos
         </button>
       </li>
       <li className="nav-li">
+        <button className="nav-link" onClick={() => handleScroll("pinceladas")}>
+          Pinceladas
+        </button>
+      </li>
+      {/* <li className="nav-li">
         <button className="nav-link" onClick={() => handleScrollDown("contact")}>
           Contacto
         </button>
-      </li>
+      </li> */}
     </ul>
   );
 }
